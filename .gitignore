@@ -1,0 +1,14 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore compiled JavaScript files
+*.js
+
+# Ignore development-specific environment files
+.env
+
+# Ignore files with a specific name in any directory (e.g., .DS_Store files):
+**/.DS_Store
