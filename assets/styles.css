@@ -1,0 +1,147 @@
+/* Color Scheme */
+:root {
+    /* Primary color scheme */
+    --primary-color: #5cb25d;  /* Replace with your primary color */
+    --primary-color-light: #02ec88;  /* A lighter variant */
+    --primary-color-dark: #0f9015;  /* A darker variant */
+
+    /* Secondary color scheme */
+    --secondary-color: #7a9295;  /* Replace with your secondary color */
+    --secondary-color-light: #9fcdfd;  /* A lighter variant */
+    --secondary-color-dark: #1d3853;  /* A darker variant */
+
+    /* Accent color (for highlights, buttons, etc.) */
+    --accent-color: #e53529;  /* Replace with your accent color */
+
+    /* Neutral color scheme */
+    --neutral-light: #faf6ed;  /* Light neutral color (e.g., for backgrounds) */
+    --neutral-dark: #010101;  /* Dark neutral color (e.g., for text) */
+
+    /* Error/warning colors */
+    --error-color: #dc3545;  /* For error messages */
+    --warning-color: #ffc107;  /* For warnings or alerts */
+
+    /* Other common colors */
+    --white: #ffffff;
+    --black: #000000;
+}
+
+/* SECTION NOTES:
+Base Styles:
+    Define basic styles for HTML elements. This section is for global typography, colors, etc.
+Layout Overrides:
+    If you need to adjust Bootstrap’s default grid system or container behaviors, do it here.
+Components:
+    Styles for each UI component (like navigation bars, cards, etc.) should be grouped here. It helps in locating and debugging component-specific styles.
+Utilities:
+    Custom utility classes for common patterns (like spacing, display, text alignment) are defined here.
+Page Specific Styles:
+    If certain pages have unique styles, group them under this section. It keeps page-specific styles organized and easily manageable.
+Responsive Adjustments:
+    Media queries for different screen sizes. It's good to keep them at the end of the stylesheet for better visibility.
+Overrides:
+    Sometimes, you need to override Bootstrap's default styles. Keep these at the end to ensure they take precedence.
+/* 
+
+1. Base Styles 
+--------------------------------------*/
+/* Basic HTML elements like body, headings, paragraphs, links */
+body {
+    /* Monotype Corsiva for title/logo text "Free Trade" */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /* ... */
+}
+
+p {
+    /* ... */
+}
+
+a {
+    /* ... */
+}
+
+/* 
+2. Layout Overrides 
+--------------------------------------*/
+/* Customizing Bootstrap's default layout components like containers, rows, columns */
+.container {
+    /* ... */
+}
+
+.row {
+    /* ... */
+}
+
+.col {
+    /* ... */
+}
+
+/* 
+3. Components 
+--------------------------------------*/
+/* Specific UI components like navigation bars, cards, buttons, modals */
+.navbar {
+    /* ... */
+}
+
+.card {
+    /* ... */
+}
+
+.button-custom {
+    /* ... */
+}
+
+.modal-custom {
+    /* ... */
+}
+
+/* 
+4. Utilities 
+--------------------------------------*/
+/* Utility and helper classes for spacing, visibility, etc. */
+.hidden {
+    /* ... */
+}
+
+.mt-extra {
+    /* ... */
+}
+
+/* 
+5. Page Specific Styles 
+--------------------------------------*/
+/* CSS rules that apply to specific pages */
+.home-page {
+    /* ... */
+}
+
+.about-page {
+    /* ... */
+}
+
+.contact-page {
+    /* ... */
+}
+
+/* 
+6. Responsive Adjustments 
+--------------------------------------*/
+/* Media queries for different screen sizes */
+@media (max-width: 768px) {
+    /* ... */
+}
+
+@media (max-width: 576px) {
+    /* ... */
+}
+
+/* 
+7. Overrides 
+--------------------------------------*/
+/* If you need to override Bootstrap's styles in any way */
+.bootstrap-override {
+    /* ... */
+}
